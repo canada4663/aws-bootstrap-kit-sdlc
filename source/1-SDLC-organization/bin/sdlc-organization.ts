@@ -34,6 +34,9 @@ const nestedOU = [
         accounts: [
             {
                 name: 'CICD'
+            },
+            {
+                name: 'Datalake'
             }
         ]
     },
