@@ -10,9 +10,9 @@
     "watch": "tsc -w",
     "test": "echo no tests",
     "cdk": "cdk",
-    "bootstrap": "cdk --profile main-admin bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess",
-    "synth": "cdk --profile main-admin synth",
-    "deploy": "cdk --profile main-admin deploy"
+    "bootstrap": "cdk --profile homelab-admin bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess",
+    "synth": "cdk --profile homelab-admin synth",
+    "deploy": "cdk --profile homelab-admin deploy"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.74.0",
